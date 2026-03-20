@@ -99,11 +99,60 @@ _CUSTOM_CSS = """
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-    .main {
+    /* ── Fundo e cor base ── */
+    .main, .stApp, [data-testid="stAppViewContainer"] {
         background-color: #0f172a;
-        color: #f1f5f9;
+        color: #ffffff;
         font-family: 'Outfit', sans-serif;
     }
+
+    /* ── Sidebar ── */
+    [data-testid="stSidebar"],
+    [data-testid="stSidebar"] > div {
+        background-color: #1e293b;
+        color: #ffffff;
+    }
+
+    /* ── Textos globais ── */
+    .main p, .main span, .main li, .main div,
+    [data-testid="stSidebar"] p,
+    [data-testid="stSidebar"] span,
+    [data-testid="stSidebar"] li,
+    [data-testid="stSidebar"] div {
+        color: #ffffff !important;
+    }
+
+    /* ── Cabeçalhos (h2-h6 + subheader) ── */
+    h2, h3, h4, h5, h6,
+    .stMarkdown h2, .stMarkdown h3, .stMarkdown h4,
+    [data-testid="stSidebar"] h2,
+    [data-testid="stSidebar"] h3 {
+        color: #e2e8f0 !important;
+    }
+
+    /* ── h1 com gradiente ── */
+    h1 {
+        background: linear-gradient(to right, #38bdf8, #818cf8);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+    }
+
+    /* ── Métricas ── */
+    [data-testid="stMetricValue"],
+    [data-testid="stMetricLabel"],
+    [data-testid="stMetricDelta"] {
+        color: #ffffff !important;
+    }
+
+    /* ── Captions e labels ── */
+    .stCaption, small, .stMarkdown small,
+    [data-testid="stCaptionContainer"] {
+        color: #94a3b8 !important;
+    }
+
+    /* ── Chat ── */
     .stChatFloatingInputContainer {
         bottom: 20px;
     }
@@ -114,12 +163,26 @@ _CUSTOM_CSS = """
         border-radius: 15px;
         margin-bottom: 10px;
     }
-    h1 {
-        background: linear-gradient(to right, #38bdf8, #818cf8);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-align: center;
+    .stChatMessage p, .stChatMessage span,
+    .stChatMessage div, .stChatMessage li {
+        color: #ffffff !important;
+    }
+
+    /* ── Inputs e botões ── */
+    .stTextInput label, .stSelectbox label {
+        color: #ffffff !important;
+    }
+    .stChatInput textarea {
+        color: #000000 !important;
+    }
+    .stButton > button {
+        color: #ffffff !important;
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* ── Divider ── */
+    hr, [data-testid="stDecoration"] {
+        border-color: rgba(255, 255, 255, 0.15) !important;
     }
 </style>
 """
