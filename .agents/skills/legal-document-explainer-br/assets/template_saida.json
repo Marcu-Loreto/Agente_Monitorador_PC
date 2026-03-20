@@ -1,0 +1,47 @@
+{
+  "resumo": {
+    "objeto": "Descrição principal do objetivo do documento",
+    "partes_envolvidas": ["Empresa A (Contratante)", "Empresa B (Contratada)"],
+    "obrigacoes_principais": ["Obrigação 1", "Obrigação 2"],
+    "prazos": "A partir de DD/MM/AAAA com vigência de X meses",
+    "valores_penalidades": "R$ X pagos em parcelas, multa de Y% por atraso",
+    "condicoes_rescisao": "Aviso prévio de 30 dias sem multa, ou rescisão por justa causa"
+  },
+  "riscos_identificados": [
+    {
+      "tipo": "Renovação Automática",
+      "descricao": "O contrato renova automaticamente se não houver manifestação",
+      "impacto": "M"
+    }
+  ],
+  "score_risco": {
+    "nivel": "Baixo | Médio | Alto",
+    "justificativa": "Raciocínio consolidado ligando evidências textuais (cláusulas abusivas, etc) ao nível estabelecido"
+  },
+  "conformidade_regulatoria": [
+    {
+      "lei": "LGPD",
+      "status": "Conforme/Não Conforme/Requer Ajuste",
+      "observacao": "Faltam cláusulas definindo o operador/controlador"
+    }
+  ],
+  "analise_fomento": {
+    "aplicavel": true,
+    "programa": "FINEP / EMBRAPII / Lei de Informática",
+    "requisitos_elegibilidade": "Exaustão dos recursos próprios garantida no edital X",
+    "propriedade_intelectual": "Pertencerá à ICT, gerando risco para a Contratada"
+  },
+  "perguntas_recomendadas": [
+    {
+      "categoria": "Jurídico / Financeiro / Operacional / Regulatório",
+      "pergunta": "Qual o limite financeiro exato da penalidade no item 3.4 se houver vazamento?"
+    }
+  ],
+  "trechos_relevantes": [
+    {
+      "assunto": "Multa Rescisória",
+      "citacao_exata": "\"A parte que rescindir pagará 50% do saldo remanescente.\"",
+      "referencia_local": "Cláusula 5.2"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Mock Contrato Prestação Serviços TI
+
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS DE DESENVOLVIMENTO DE SOFTWARE
+
+CONTRATANTE: Empresa X Tech Ltda.
+CONTRATADA: SoftDev ME.
+
+CLÁUSULA 1 - OBJETO
+O presente contrato tem como objeto o desenvolvimento de um aplicativo mobile para a Contratante.
+
+CLÁUSULA 2 - VALORES
+O valor total é de R$ 50.000,00, pagos em 5 parcelas de R$ 10.000,00.
+
+CLÁUSULA 3 - PROPRIEDADE INTELECTUAL
+Toda a propriedade intelectual do código passa a ser de exclusividade da Contratante após a quitação do valor. Os códigos pré-existentes da Contratada usados como base (Background IP) serão licenciados de forma gratuita, irrevogável e global para a Contratante.
+
+CLÁUSULA 4 - DADOS
+A Contratada concorda em hospedar o banco de dados temporário de testes com os dados de clientes reais da Contratante. Não é necessário consentimento prévio, pois é apenas ambiente de homologação.
+
+CLÁUSULA 5 - PRAZOS E RESCISÃO
+O prazo de desenvolvimento é de 6 meses.
+Em caso de rescisão antecipada por qualquer das partes, haverá multa não compensatória no valor de 100% (cem por cento) do valor total do contrato, independentemente do tempo faltante.
+
+---
+
+## Saída Esperada (Visão Geral - Não o JSON estrito):
+- **Riscos Altos**: 
+  - Cláusula 4 fere frontalmente a LGPD (uso de PII real em ambiente de testes sem consentimento).
+  - Cláusula 5 possui multa abusiva de 100% que gera desequilibrio, anulável pelo Código Civil.
+  - Cláusula 3 de Propriedade Intelectual gera Lock-out de background IP para a desenvolvedora, risco Médio/Alto dependendo da tecnologia base.
+- **Perguntas a fazer**: "Os dados de homologação podem ser anonimizados?", "Podemos reduzir a multa para 20% do saldo devedor?"

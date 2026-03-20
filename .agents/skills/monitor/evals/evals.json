@@ -1,0 +1,23 @@
+{
+  "skill_name": "monitor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Como está o uso da minha CPU agora?",
+      "expected_output": "O agente deve executar o script monitor_utils.py e informar a porcentagem de uso da CPU.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Mostre um dashboard com o desempenho do meu PC.",
+      "expected_output": "O agente deve executar o script de monitoramento e abrir o arquivo index.html no navegador.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Qual é a temperatura do meu processador e o throughput da rede?",
+      "expected_output": "O agente deve informar a temperatura (ou N/A se não suportado) e os valores de download/upload.",
+      "files": []
+    }
+  ]
+}

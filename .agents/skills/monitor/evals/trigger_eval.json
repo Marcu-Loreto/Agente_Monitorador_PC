@@ -1,0 +1,22 @@
+[
+  {"query": "Meu PC está muito lento, pode verificar o que está consumindo tanta memória?", "should_trigger": true},
+  {"query": "Como está a temperatura do meu processador agora?", "should_trigger": true},
+  {"query": "Quero ver um dashboard com o desempenho geral da minha máquina.", "should_trigger": true},
+  {"query": "Qual é a minha velocidade de download atual?", "should_trigger": true},
+  {"query": "Monitorar meu PC", "should_trigger": true},
+  {"query": "Quanto de CPU o chrome está usando?", "should_trigger": true},
+  {"query": "Tem como ver se meu computador está esquentando demais?", "should_trigger": true},
+  {"query": "Mostra o throughput da rede em tempo real", "should_trigger": true},
+  {"query": "Quanto de internet eu já usei hoje?", "should_trigger": true},
+  {"query": "Resumo de performance do sistema", "should_trigger": true},
+  {"query": "Crie um script em python que calcule a sequência de fibonacci", "should_trigger": false},
+  {"query": "Abra o site do Google no navegador", "should_trigger": false},
+  {"query": "Quais são os arquivos na minha pasta de Downloads?", "should_trigger": false},
+  {"query": "Traduza este texto para o inglês", "should_trigger": false},
+  {"query": "Como faço para instalar o vscode no windows?", "should_trigger": false},
+  {"query": "Liste os processos que estão rodando no Windows", "should_trigger": false},
+  {"query": "Crie um documento de texto chamado notas.txt", "should_trigger": false},
+  {"query": "Qual é o ip da minha máquina?", "should_trigger": false},
+  {"query": "Quanto de espaço em disco eu ainda tenho?", "should_trigger": false},
+  {"query": "Reinicie o meu computador agora", "should_trigger": false}
+]

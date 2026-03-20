@@ -1,0 +1,11 @@
+# Ambiente virtual e dependências
+.venv/
+__pycache__/
+*.pyc
+
+# Variáveis de ambiente (chaves sensíveis)
+.env
+
+# Dados dinâmicos gerados pelo monitor (não versionáveis)
+.agents/skills/monitor/dashboard/metrics-data.js
+.agents/skills/monitor/dashboard/metrics.json
